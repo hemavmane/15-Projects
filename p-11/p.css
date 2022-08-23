@@ -1,0 +1,31 @@
+
+.image_conatiner{
+   
+   width: 100%;
+   height:100%;
+   position: relative;
+
+}
+
+span img{
+   position: absolute;
+    left: 30%;
+}
+.next,
+.pre{
+    font-size: 2.5rem;
+    background: transparent;
+    border: none;
+    color: black;
+}
+
+.pre{
+    position: absolute;
+    right: 90%;
+}
+
+.next{
+    position: absolute;
+left: 90%;
+top: 80%;
+}
